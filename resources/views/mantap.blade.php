@@ -7,6 +7,16 @@
     <title>Document</title>
 </head>
 <body>
+    {{-- Compact --}}
+    {{-- <h1>Mantap</h1>
+    @foreach ($arrMahasiswa as $mhs)
+        <h2>{{ $mhs }}</h2>
+    @endforeach --}}
+
+    {{-- With --}}
     <h1>Mantap</h1>
+    @foreach ($mhs as $m)
+        <h2>{{ $m }}</h2>
+    @endforeach
 </body>
 </html>
